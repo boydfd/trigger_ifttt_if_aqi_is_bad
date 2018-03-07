@@ -4,7 +4,8 @@ from _socket import timeout
 import requests
 import schedule
 
-from config import config, UserConfig
+from config import config
+from user_config import UserConfig
 from utilities import retry_for_exception_decorator
 
 
